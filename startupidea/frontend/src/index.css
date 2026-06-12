@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(38, 208, 206, 0.2), transparent 34%),
+    radial-gradient(circle at 85% 8%, rgba(245, 158, 11, 0.18), transparent 28%),
+    linear-gradient(135deg, #f6fcff 0%, #e8f5ff 42%, #f9fdfb 100%);
+  color: #0b1f34;
+  min-height: 100vh;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(18, 56, 91, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.metric-success {
+  color: #059669;
+}
+
+.metric-risk {
+  color: #d97706;
+}
+
+.metric-failure {
+  color: #dc2626;
+}

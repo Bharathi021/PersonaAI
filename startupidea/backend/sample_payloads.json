@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "email": "demo@personaai.io",
+    "full_name": "Demo Candidate"
+  },
+  "analysis": {
+    "user_id": 1,
+    "role": "AI Engineer",
+    "resume_text": "Python developer with FastAPI, SQL, machine learning, and NLP project experience. Built APIs, integrated Docker, and deployed prototypes to cloud.",
+    "session_time_minutes": 42,
+    "task_completion_rate": 0.73,
+    "typing_delay_ms": 220,
+    "activity_gap_count": 4,
+    "local_processing_mode": true
+  }
+}
